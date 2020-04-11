@@ -14,7 +14,7 @@ class AppImpl implements App{
     @Override
     public void serveB() {
         System.out.println("App is serving B");
-        //serveA();
+        serveA();  // inheritance will change the actual-called serveA()
     }
 }
 
